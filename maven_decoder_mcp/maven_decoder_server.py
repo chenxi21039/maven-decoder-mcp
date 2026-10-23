@@ -181,12 +181,7 @@ class MavenDecoderServer:
         
         if not self.maven_home.exists():
             logger.warning(f"Maven repository not found at {self.maven_home}")
-        else:
-            # Count artifacts for info
-            jar_count = len(list(self.maven_home.rglob("*.jar")))
-            pom_count = len(list(self.maven_home.rglob("*.pom")))
-            logger.info(f"Found {jar_count} jar files and {pom_count} POM files in repository")
-        
+
         logger.info("Initializing Java decompiler...")
         self.decompiler = JavaDecompiler()
         logger.info(f"Available decompilers: {list(self.decompiler.available_decompilers.keys())}")
