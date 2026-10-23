@@ -1,0 +1,19 @@
+maven_decoder_mcp/maven_decoder_server.py
+  s_717741dd29ce10::t_95c4c0374a7fff 184
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.51-trip",
+  "base_commit_sha": "bdadc2e6a3e2995bc17a2130686bd4526b29039e",
+  "prompts": {},
+  "sessions": {
+    "s_717741dd29ce10": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4f9ec0c7-48c1-4333-a881-68d623d62853",
+        "model": "grok-4.7"
+      },
+      "human_author": "x_chen25 <x_chen25@trip.com>"
+    }
+  }
+}
